@@ -1,0 +1,8 @@
+#ifdef __OBJC__
+
+#if DEBUG
+#else
+#define NSLog(FORMAT, ...)
+#endif
+
+#endif //__OBJC__
